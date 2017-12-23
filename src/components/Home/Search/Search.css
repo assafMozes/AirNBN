@@ -1,0 +1,13 @@
+.search{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*position:fixed;*/
+    height: 70px;
+    margin: 4px;
+    align-items: center;
+    grid-area: search;
+}
+
+.searchOption{
+    border: 1px solid pink;
+}

@@ -1,0 +1,19 @@
+.header{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    /*position:fixed;*/
+    height: 50px;
+    margin: 4px;
+    align-items: center;
+    grid-area: header;
+}
+
+.logo{
+    height:50px ;
+}
+
+.headerOptions{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: start; 
+}

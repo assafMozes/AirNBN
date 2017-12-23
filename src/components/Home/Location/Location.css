@@ -1,0 +1,15 @@
+.locationImg{
+    width: 80%;
+}
+
+.locationPrice{
+    color: green
+}
+
+.locationPrice::before{
+    content: "$";
+}
+
+.locationPrice::after{
+    content: " ";
+}

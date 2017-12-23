@@ -1,0 +1,4 @@
+.jumbotron{
+   grid-area: jumbotron; 
+   /*grid-column: 2;*/
+}
